@@ -1,0 +1,42 @@
+footer {
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    gap: 20px;
+    background-color: rgb(68, 68, 68);
+}
+
+.infoContainer {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+footer .logoContainer{
+    width: 100vw;
+}
+
+.infos {
+  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media(max-width:400px) {
+    footer{
+        padding: 10px;
+    }
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media(min-width:401) and (max-width:1024) {}
