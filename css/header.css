@@ -1,17 +1,19 @@
 :root {
-    --headerHeight: 10vh;
+    --headerHeight: 80px;
 }
 
 header {
     position: fixed;
     top: 0;
-    background-color: rgb(255, 255, 255);
-    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.990); 
+    width: 100%;
     box-sizing: border-box;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     display: flex;
     justify-content: space-between;
     height: var(--headerHeight);
+    box-shadow: 0px 1px 20px rgba(0,0,0,0.1);
+    z-index: 10;
 }
 
 a{
@@ -37,14 +39,30 @@ a{
 } 
 
 .linksContainer a{
+    position: relative;
     text-decoration: none;
-    color: black;
+    color: rgb(117, 117, 117);
     display: inline-block;
     line-height: var(--headerHeight);
 }
 
+/* .linksContainer a::after{
+    content: "ubibb";
+    position: absolute;
+    display: flex;
+    border-bottom: 3px solid black;
+    width: 100px;
+    height: 2px;
+    background-color: blue;
+    left: 0;
+    top: 10px;
+
+} */
+
 .linksContainer a:hover{
-    color: rgb(117, 117, 117);
+    color: black;
+    
+    text-decoration: underline;
 }
 /* menu */
 .menuContainer {
