@@ -1,0 +1,18 @@
+.preco {
+    color: green;
+    font-size: 1rem;
+}
+
+.botaoAcessar {
+    width: 100px;
+    padding: 10px;
+    color: gray;
+    font-size: 1rem;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.card:hover .botaoAcessar{
+    color: rgb(0, 128, 0);
+    border: 2px solid rgb(0, 128, 0);
+}

@@ -16,7 +16,7 @@ header {
     z-index: 10;
 }
 
-a{
+header a{
     text-decoration: none;
     color: black;
 }
@@ -32,13 +32,13 @@ a{
 }
 
 /* link */
-.linksContainer {
+header .linksContainer {
     display: flex;
     gap: 10px;
     height: var(--headerHeight);
 } 
 
-.linksContainer a{
+header .linksContainer a{
     position: relative;
     text-decoration: none;
     color: rgb(117, 117, 117);
@@ -59,7 +59,7 @@ a{
 
 } */
 
-.linksContainer a:hover{
+header .linksContainer a:hover{
     color: black;
     
     text-decoration: underline;
@@ -74,17 +74,17 @@ a{
     
 }
 
-details{
+header details{
     position: relative;
 }
-summary{
+header summary{
     padding: 10px;
     list-style: none;
 }
-summary:active{
+header summary:active{
     background-color: aliceblue;
 }
-.conteudo{
+header .conteudo{
     background-color: rgb(255, 255, 255);
     padding: 10px;
     position: absolute;
